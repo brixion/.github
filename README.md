@@ -1,0 +1,1 @@
+This is the `.github` repo for [Brixion](https://brixion.com/), it houses all our [issue templates](https://github.com/brixion/.github/tree/main/.github/ISSUE_TEMPLATE) that can be shared across our different repositories, as well as [our profile page README](https://github.com/brixion/.github/blob/main/profile/README.md).
