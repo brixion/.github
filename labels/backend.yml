@@ -1,0 +1,17 @@
+########################################################
+# Backend-specific Type Labels
+########################################################
+- name: "type: business-logic"
+  color: "#3585BD"
+  description: "Business logic implementation or changes"
+  aliases: []
+
+- name: "type: architecture"
+  color: "#6A4FB6"
+  description: "Application architecture and high-level design"
+  aliases: []
+
+- name: "type: database"
+  color: "#2E8B57"
+  description: "Database schema, queries, or migrations"
+  aliases: []
