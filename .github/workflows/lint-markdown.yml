@@ -1,44 +1,33 @@
-name: Lint Markdown Files
+ # File: .github/workflows/lint-markdown.yml
+---
 
-on:
-  pull_request:
-    branches: [ main, master ]
+name: Shared Lint Markdown Workflow
+
+on: # yamllint disable-line rule:truthy
+    pull_request:
+        branches:
+            - main
 
 jobs:
-  lint-markdown:
-    runs-on: ubuntu-latest
-    
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
-        cache: 'npm'
-        
-    - name: Install ESLint and markdown plugin
-      run: |
-        npm install --save-dev eslint eslint-plugin-markdown
-        
-    - name: Download ESLint config
-      run: |
-        curl -o .eslintrc.json https://raw.githubusercontent.com/brixion/.github/main/.github/workflows/configs/lint-markdown-eslintrc.json
-        
-    - name: Check if any markdown files exist
-      id: check_md
-      run: |
-        if [ -z "$(find . -name "*.md" -type f)" ]; then
-          echo "No markdown files found to lint"
-          echo "found=false" >> $GITHUB_OUTPUT
-        else
-          echo "Markdown files found"
-          echo "found=true" >> $GITHUB_OUTPUT
-        fi
+    lint-markdown:
+        name: Lint Markdown
+        runs-on: self-hosted
+        steps:
+            - uses: actions/checkout@v4  # Checkout the calling repo
 
-    - name: Find and lint markdown files
-      if: steps.check_md.outputs.found == 'true'
-      run: |
-        # Find all .md files and lint them with ESLint
-        find . -name "*.md" -type f | xargs npx eslint --ext .md
+            - name: Checkout shared-workflows config
+              uses: actions/checkout@v4
+              with:
+                repository: brixion/.github
+                path: shared
+                sparse-checkout: |
+                  .github/workflows/configs/.markdownlint.yaml
+
+            - name: Copy markdownlint config
+              run: cp shared/.markdownlint.yaml .
+
+            - name: Lint Markdown
+              uses: DavidAnson/markdownlint-cli2-action@v19
+              with:
+                config: .markdownlint.yaml
+                globs: "**/*.md"
