@@ -28,4 +28,4 @@ Want to learn more about organization-wide repositories? [Read the GitHub docume
 
 ## 🤝 Contributing
 
-Contributions to this repository are limited to Brixion employees. If you are a Brixion employee and have suggestions for improving our templates or organization-wide practices, please open an issue or submit a pull request.
+Contributions to this repository are **limited to Brixion employees**. If you are a Brixion employee and have suggestions for improving our templates or organization-wide practices, please open an issue or submit a pull request.
