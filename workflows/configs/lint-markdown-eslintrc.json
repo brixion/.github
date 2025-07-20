@@ -1,0 +1,16 @@
+{
+  "plugins": ["markdown"],
+  "overrides": [
+    {
+      "files": ["**/*.md"],
+      "processor": "markdown/markdown"
+    },
+    {
+      "files": ["**/*.md/*.js", "**/*.md/*.ts"],
+      "rules": {
+        "no-undef": "off",
+        "no-unused-vars": "off"
+      }
+    }
+  ]
+} 
