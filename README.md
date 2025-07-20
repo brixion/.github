@@ -2,7 +2,6 @@
 
 Welcome to the central `.github` repository for Brixion!
 
-
 This repository contains essential, organization-wide resources that help us maintain consistency, quality, and collaboration across all Brixion projects.
 
 Want to learn more about organization-wide repositories? [Read the GitHub documentation.](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file_)
