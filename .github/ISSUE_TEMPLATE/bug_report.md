@@ -18,6 +18,7 @@ labels: 🐛 bug
 <!-- Beschrijf wat het verwachte correcte gedrag zou moeten zijn -->
 
 ## 👣 Stappen om te reproduceren
+
 1. <!-- Stap 1 -->
 2. <!-- Stap 2 -->
 3. <!-- Stap 3 -->
@@ -25,7 +26,7 @@ labels: 🐛 bug
 
 ## 🖼️ Screenshots
 
-<!-- Indien van toepassing, voeg screenshots of video toe die het probleem illustreren -->
+<!-- Indien van toepassing, voeg screenshots of video toe -->
 
 ## 🌍 Omgeving
 
@@ -38,11 +39,11 @@ labels: 🐛 bug
 
 ## 💡 Mogelijke oplossing
 
-<!-- Indien bekend, geef een suggestie voor hoe dit probleem opgelost zou kunnen worden -->
+<!-- Geef een suggestie voor hoe dit probleem opgelost zou kunnen worden -->
 
 ## ⚙️ Technische informatie
 
-<!-- Voeg hier relevante technische details toe zoals logs, error messages, stack traces, etc. -->
+<!-- Voeg relevante technische details toe zoals logs of error messages -->
 
 ```
 [Plaats hier eventuele error berichten of loguitvoer]

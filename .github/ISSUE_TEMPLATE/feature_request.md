@@ -23,6 +23,7 @@ labels: ✨feature
 
 ## 🎯 Use Case: [Naam van de use case]
 ### Basispad
+
 1. <!-- Stap 1 -->
 2. <!-- Stap 2 -->
 3. <!-- Stap 3 -->
@@ -31,6 +32,7 @@ labels: ✨feature
 ### Alternatieve paden
 <!-- Beschrijf hier alle alternatieve scenario's en foutcondities -->
 Xa. [Scenario titel] 
+
    1. <!-- Alternatieve stap 1 -->
    2. <!-- Alternatieve stap 2 -->
    ...
