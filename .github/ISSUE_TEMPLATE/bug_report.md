@@ -44,9 +44,10 @@ labels: 🐛 bug
 
 <!-- Voeg relevante technische details toe zoals logs of error messages -->
 
-```
+```plain
 Plaats hier eventuele logs of error messages
 ```
+
 
 ## 📝 Aanvullende context
 

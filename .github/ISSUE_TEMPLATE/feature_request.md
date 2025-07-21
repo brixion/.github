@@ -33,11 +33,10 @@ labels: ✨feature
 
 <!-- Beschrijf hier alle alternatieve scenario's en foutcondities -->
 
-Xa. [Scenario titel] 
+Xa. [Scenario titel]
 
    1. <!-- Alternatieve stap 1 -->
    1. <!-- Alternatieve stap 2 -->
-   ...
 
 ## 🏁 Postcondities
 
