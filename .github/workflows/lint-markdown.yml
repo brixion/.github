@@ -24,7 +24,7 @@ jobs:
                   .github/workflows/configs/.markdownlint.yaml
 
             - name: Copy markdownlint config
-              run: cp shared/.markdownlint.yaml .
+              run: curl -o .markdownlint.yaml https://raw.githubusercontent.com/brixion/.github/4cba0119693a54360d3a5ecc745b3100f7fabbba/.github/workflows/configs/.markdownlint.yaml
 
             - name: Lint Markdown
               uses: DavidAnson/markdownlint-cli2-action@v19
