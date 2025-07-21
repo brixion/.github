@@ -24,7 +24,6 @@ Deze PR ...
 -
 -
 
-
 ## 📌 Openstaande punten
 
 <!-- Verwijder deze sectie als er geen openstaande punten zijn -->
@@ -34,7 +33,6 @@ Deze PR ...
 ## 💬 Extra informatie
 
 <!-- Optioneel: relevante context, screenshots, links naar tickets -->
-
 
 ## ✅ Checklist
 

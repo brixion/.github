@@ -40,7 +40,7 @@ Deze PR ...
 
 <!-- Verwijder deze sectie als er geen openstaande punten zijn -->
 
-- [ ] 
+- [ ]
 
 ## 💬 Extra informatie
 
@@ -50,5 +50,5 @@ Deze PR ...
 ## ✅ Checklist
 
 - [ ] Code is lokaal getest
-- [ ] Tests toegevoegd 
+- [ ] Tests toegevoegd
 - [ ] Documentatie bijgewerkt (indien nodig)

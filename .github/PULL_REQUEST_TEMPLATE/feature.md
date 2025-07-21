@@ -32,12 +32,11 @@ Deze PR ...
 
 <!-- Verwijder deze sectie als er geen openstaande punten zijn -->
 
-- [ ] 
+- [ ]
 
 ## 💬 Extra informatie
 
 <!-- Optioneel: relevante context, screenshots, links naar tickets -->
-
 
 ## ✅ Checklist
 
