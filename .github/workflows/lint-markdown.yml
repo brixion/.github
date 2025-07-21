@@ -1,0 +1,33 @@
+# File: .github/workflows/lint-markdown.yml
+---
+
+name: Shared Lint Markdown Workflow
+
+on: # yamllint disable-line rule:truthy
+    pull_request:
+        branches:
+            - main
+
+jobs:
+    lint-markdown:
+        name: Lint Markdown
+        runs-on: self-hosted
+        steps:
+            - uses: actions/checkout@v4  # Checkout the calling repo
+
+            - name: Checkout shared config
+              uses: actions/checkout@v4
+              with:
+                repository: brixion/.github
+                path: shared
+                sparse-checkout: |
+                  .github/workflows/configs/.markdownlint.yaml
+
+            - name: Copy markdownlint config
+              run: curl -o .markdownlint.yaml https://raw.githubusercontent.com/brixion/.github/main/.github/workflows/configs/.markdownlint.yaml
+
+            - name: Lint Markdown
+              uses: DavidAnson/markdownlint-cli2-action@v19
+              with:
+                config: .markdownlint.yaml
+                globs: "**/*.md"
