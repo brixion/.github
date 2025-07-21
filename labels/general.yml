@@ -17,7 +17,7 @@
   aliases: []
 
 - name: "type: documentation"
-  color: "#7f7ca7"
+  color: "#94bf87"
   description: "Improvements or additions to documentation"
   aliases: ["📖 docs"]
 
@@ -46,11 +46,6 @@
   description: "Performance improvement"
   aliases: ["⚡ performance"]
 
-- name: "type: accessibility"
-  color: "#94bf87"
-  description: "Accessibility improvement"
-  aliases: []
-
 - name: "type: infrastructure"
   color: "#b45a81"
   description: "Infrastructure or deployment changes"
@@ -60,6 +55,11 @@
   color: "#86b8bb"
   description: "GitHub Actions implementation"
   aliases: ["👷🏼 ci", "👷🏼 ci/cd"]
+
+- name: "type: architecture"
+  color: "#6A4FB6"
+  description: "Application architecture and high-level design"
+  aliases: []
 
 ########################################################
 # Size/Effort Labels
