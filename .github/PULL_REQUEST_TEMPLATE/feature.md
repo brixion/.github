@@ -16,17 +16,17 @@ Deze PR ...
 
 <!-- Beschrijf in detail en puntsgewijs wat je aangepast hebt. -->
 
-- 
-- 
-- 
+-
+-
+-
 
 ## 🧪 Testinstructies
 
 <!-- Hoe kan een reviewer je wijzigingen testen? Houd het eenvoudig en concreet -->
 
-1. 
-2. 
-3. 
+1.
+1.
+1.
 
 ## 📌 Openstaande punten
 

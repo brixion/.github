@@ -16,9 +16,9 @@ Deze PR ...
 
 <!-- Beschrijf in detail en puntsgewijs wat je aangepast hebt. -->
 
-- 
-- 
-- 
+-
+-
+-
 
 ## 💬 Extra informatie
 

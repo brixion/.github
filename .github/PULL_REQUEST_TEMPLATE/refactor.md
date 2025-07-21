@@ -20,16 +20,16 @@ Deze PR ...
 
 <!-- Beschrijf in detail en puntsgewijs wat je aangepast hebt. -->
 
-- 
-- 
-- 
+-
+-
+-
 
 
 ## 📌 Openstaande punten
 
 <!-- Verwijder deze sectie als er geen openstaande punten zijn -->
 
-- [ ] 
+- [ ]
 
 ## 💬 Extra informatie
 
