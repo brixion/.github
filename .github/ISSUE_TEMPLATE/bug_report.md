@@ -48,7 +48,6 @@ labels: 🐛 bug
 Plaats hier eventuele logs of error messages
 ```
 
-
 ## 📝 Aanvullende context
 
 <!-- Voeg hier eventuele extra context toe die relevant kan zijn -->
