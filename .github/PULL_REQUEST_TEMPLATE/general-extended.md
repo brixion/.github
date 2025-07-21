@@ -40,6 +40,7 @@ Deze PR ...
 
 
 ## ✅ Checklist
+
 - [ ] Code is lokaal getest
 - [ ] Tests zijn toegevoegd/aangepast
-- [ ] Documentatie bijgewerkt (indien nodig) 
+- [ ] Documentatie bijgewerkt (indien nodig)

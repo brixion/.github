@@ -25,6 +25,7 @@ Deze PR ...
 <!-- Optioneel: relevante context, screenshots, links naar tickets -->
 
 ## ✅ Checklist
+
 - [ ] Code is lokaal getest
 - [ ] Tests zijn toegevoegd/aangepast
-- [ ] Documentatie bijgewerkt (indien nodig) 
+- [ ] Documentatie bijgewerkt (indien nodig)
