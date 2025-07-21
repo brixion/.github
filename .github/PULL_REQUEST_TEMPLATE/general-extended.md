@@ -31,7 +31,7 @@ Deze PR ...
 
 <!-- Verwijder deze sectie als er geen openstaande punten zijn -->
 
-- [ ] 
+- [ ]
 
 ## 💬 Extra informatie
 
