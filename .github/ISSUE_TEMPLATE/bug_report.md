@@ -45,7 +45,7 @@ labels: 🐛 bug
 <!-- Voeg relevante technische details toe zoals logs of error messages -->
 
 ```
-[Plaats hier eventuele error berichten of loguitvoer]
+Plaats hier eventuele logs of error messages
 ```
 
 ## 📝 Aanvullende context

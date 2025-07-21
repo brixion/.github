@@ -22,6 +22,7 @@ labels: ✨feature
 - <!-- Preconditie 2 -->
 
 ## 🎯 Use Case: (Naam van de use case)
+
 ### Basispad
 
 1. <!-- Stap 1 -->
@@ -29,7 +30,9 @@ labels: ✨feature
 1. <!-- Stap 3 -->
 
 ### Alternatieve paden
+
 <!-- Beschrijf hier alle alternatieve scenario's en foutcondities -->
+
 Xa. [Scenario titel] 
 
    1. <!-- Alternatieve stap 1 -->
