@@ -198,11 +198,11 @@ MD041:
 MD042: true
 
 # MD043/required-headings : Required heading structure
-MD043:
-  # List of headings
-  headings: []
-  # Match case of headings
-  match_case: false
+MD043: false
+  # # List of headings
+  # headings: []
+  # # Match case of headings
+  # match_case: false
 
 # MD044/proper-names : Proper names should have the correct capitalization
 MD044:
