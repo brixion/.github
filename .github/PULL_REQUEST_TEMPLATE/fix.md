@@ -3,7 +3,6 @@ name: Fix
 about: Template voor het oplossen van een probleem
 title: "🩹🐛🚑 [ACTION] [WHAT] in/for [WHERE]"
 labels: 'type: fix'
-assignees: ''
 ---
 
 ## 🔍 Samenvatting

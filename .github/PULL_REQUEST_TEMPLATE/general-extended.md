@@ -3,7 +3,6 @@ name: Algemeen (uitgebreid)
 about: Template voor overige Pull Requests
 title: "🎨 [ACTION] [WHAT] in/for [WHERE]"
 labels: 'type: other'
-assignees: ''
 ---
 
 ## 🔍 Samenvatting

@@ -3,7 +3,6 @@ name: Documentatie bijgewerkt
 about: Template voor documentatie wijzigingen
 title: "📝 [ACTION] [WHAT] in/for [WHERE]"
 labels: 'type: documentation'
-assignees: ''
 ---
 
 ## 🔍 Samenvatting

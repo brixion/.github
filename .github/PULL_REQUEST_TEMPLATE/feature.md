@@ -3,7 +3,6 @@ name: Nieuwe functionaliteit
 about: Template voor het toevoegen van een nieuwe functionaliteit
 title: "✨ [ACTION] [WHAT] in/for [WHERE]"
 labels: 'type: feature'
-assignees: ''
 ---
 
 ## 🔍 Samenvatting

@@ -3,7 +3,6 @@ name: Refactor
 about: Template voor refactor wijzigingen
 title: "♻️ [ACTION] [WHAT] in/for [WHERE]"
 labels: 'type: refactor'
-assignees: ''
 ---
 
 ## 🔍 Samenvatting
