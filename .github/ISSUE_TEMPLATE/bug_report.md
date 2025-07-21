@@ -20,9 +20,8 @@ labels: 🐛 bug
 ## 👣 Stappen om te reproduceren
 
 1. <!-- Stap 1 -->
-2. <!-- Stap 2 -->
-3. <!-- Stap 3 -->
-...
+1. <!-- Stap 2 -->
+1. <!-- Stap 3 -->
 
 ## 🖼️ Screenshots
 

@@ -21,20 +21,19 @@ labels: ✨feature
 - <!-- Preconditie 1 -->
 - <!-- Preconditie 2 -->
 
-## 🎯 Use Case: [Naam van de use case]
+## 🎯 Use Case: (Naam van de use case)
 ### Basispad
 
 1. <!-- Stap 1 -->
-2. <!-- Stap 2 -->
-3. <!-- Stap 3 -->
-...
+1. <!-- Stap 2 -->
+1. <!-- Stap 3 -->
 
 ### Alternatieve paden
 <!-- Beschrijf hier alle alternatieve scenario's en foutcondities -->
 Xa. [Scenario titel] 
 
    1. <!-- Alternatieve stap 1 -->
-   2. <!-- Alternatieve stap 2 -->
+   1. <!-- Alternatieve stap 2 -->
    ...
 
 ## 🏁 Postcondities
@@ -51,7 +50,6 @@ Xa. [Scenario titel]
 - <!-- Vereiste 1 -->
 - <!-- Vereiste 2 -->
 - <!-- Vereiste 3 -->
-...
 
 ## 📝 Aanvullende opmerkingen
 <!-- Optioneel: overige informatie die relevant is voor deze feature -->
