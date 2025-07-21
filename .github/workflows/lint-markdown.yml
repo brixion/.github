@@ -1,4 +1,4 @@
- # File: .github/workflows/lint-markdown.yml
+# File: .github/workflows/lint-markdown.yml
 ---
 
 name: Shared Lint Markdown Workflow
@@ -15,7 +15,7 @@ jobs:
         steps:
             - uses: actions/checkout@v4  # Checkout the calling repo
 
-            - name: Checkout shared-workflows config
+            - name: Checkout shared config
               uses: actions/checkout@v4
               with:
                 repository: brixion/.github
@@ -24,7 +24,7 @@ jobs:
                   .github/workflows/configs/.markdownlint.yaml
 
             - name: Copy markdownlint config
-              run: curl -o .markdownlint.yaml https://raw.githubusercontent.com/brixion/.github/4cba0119693a54360d3a5ecc745b3100f7fabbba/.github/workflows/configs/.markdownlint.yaml
+              run: curl -o .markdownlint.yaml https://raw.githubusercontent.com/brixion/.github/main/.github/workflows/configs/.markdownlint.yaml
 
             - name: Lint Markdown
               uses: DavidAnson/markdownlint-cli2-action@v19
