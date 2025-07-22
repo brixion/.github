@@ -11,11 +11,6 @@
   description: "Request or addition of new functionality"
   aliases: ["🌟 feature"]
 
-- name: "type: enhancement"
-  color: "#68adba"
-  description: "Improvement to an existing feature"
-  aliases: []
-
 - name: "type: documentation"
   color: "#94bf87"
   description: "Improvements or additions to documentation"
