@@ -175,7 +175,7 @@
 
 - name: "spike"
   color: "#C9F2FF"
-  description: "Research or proof of concept"
+  description: "A short research activity to help make a decision"
   aliases: []
 
 - name: "dependencies"
