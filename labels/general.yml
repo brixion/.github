@@ -1,0 +1,199 @@
+########################################################
+# Type Labels
+########################################################
+- name: "type: bug"
+  color: "#b03a4a"
+  description: "A problem that needs to be fixed"
+  aliases: ["🐛 bug", "🔥 hotfix"]
+
+- name: "type: feature"
+  color: "#4774c3"
+  description: "Request or addition of new functionality"
+  aliases: ["🌟 feature"]
+
+- name: "type: documentation"
+  color: "#94bf87"
+  description: "Improvements or additions to documentation"
+  aliases: ["📖 docs"]
+
+- name: "type: refactor"
+  color: "#5da766"
+  description: "Code changes that neither fix a bug nor add a feature"
+  aliases: ["♻️ refactor"]
+
+- name: "type: test"
+  color: "#ddab97"
+  description: "Adding or updating tests"
+  aliases: []
+
+- name: "type: maintenance"
+  color: "#98b7b8"
+  description: "General maintenance and codebase health"
+  aliases: ["🔧 config", "🛠️ setup", "🧹 chore"]
+
+- name: "type: security"
+  color: "#ca5e69"
+  description: "Security vulnerability or improvement"
+  aliases: ["🔒 security"]
+
+- name: "type: performance"
+  color: "#afa273"
+  description: "Performance improvement"
+  aliases: ["⚡ performance"]
+
+- name: "type: infrastructure"
+  color: "#b45a81"
+  description: "Infrastructure or deployment changes"
+  aliases: ["🧱 infra"]
+
+- name: "type: ci"
+  color: "#86b8bb"
+  description: "GitHub Actions implementation"
+  aliases: ["👷🏼 ci", "👷🏼 ci/cd"]
+
+- name: "type: architecture"
+  color: "#6A4FB6"
+  description: "Application architecture and high-level design"
+  aliases: []
+
+########################################################
+# Size/Effort Labels
+########################################################
+- name: "size: XS"
+  color: "#0052AA"
+  description: "Very small task (< 1 hour)"
+  aliases: ["XS"]
+
+- name: "size: S"
+  color: "#0052BB"
+  description: "Small task (1-4 hours)"
+  aliases: ["S"]
+
+- name: "size: M"
+  color: "#0052CC"
+  description: "Medium task (1-2 days)"
+  aliases: ["M"]
+
+- name: "size: L"
+  color: "#0052DD"
+  description: "Large task (3-5 days)"
+  aliases: ["L"]
+
+- name: "size: XL"
+  color: "#0052EE"
+  description: "Very large task (> 1 week)"
+  aliases: ["XL"]
+
+########################################################
+# Priority Labels
+########################################################
+- name: "priority: urgent"
+  color: "#B60205" # Red, standard for critical/blocker
+  description: "Blocks progress, requires immediate attention"
+  aliases: ["P1"]
+
+- name: "priority: high"
+  color: "#D93F0B" # Orange, standard for high
+  description: "High priority, should be addressed soon"
+  aliases: ["P2", "Prio 1"]
+
+- name: "priority: medium"
+  color: "#FBCA04" # Yellow, standard for medium
+  description: "Normal priority"
+  aliases: ["P3"]
+
+- name: "priority: low"
+  color: "#0E8A16" # Green, standard for low
+  description: "Low priority, can be addressed later"
+  aliases: []
+
+- name: "priority: none"
+  color: "#CCCCCC" # Grey, standard for none/unprioritized
+  description: "No priority assigned"
+  aliases: []
+
+########################################################
+# Status Labels
+########################################################
+- name: "status: ready"
+  color: "#B2F2BB"
+  description: "Ready to be picked up"
+  aliases: []
+
+- name: "status: in-progress"
+  color: "#A0C4FF"
+  description: "Currently being worked on"
+  aliases: []
+
+- name: "status: blocked"
+  color: "#FFD6A5"
+  description: "Blocked by external factor"
+  aliases: []
+
+- name: "status: needs-review"
+  color: "#E7C6FF"
+  description: "Needs code review"
+  aliases: []
+
+- name: "status: needs-testing"
+  color: "#FFFACD"
+  description: "Needs testing"
+  aliases: []
+
+- name: "status: on-hold"
+  color: "#BDB2FF"
+  description: "Temporarily on hold"
+  aliases: []
+
+- name: "status: duplicate"
+  color: "#FFB3B3"
+  description: "Duplicate of existing issue"
+  aliases: []
+
+- name: "status: wontfix"
+  color: "#D3D3D3"
+  description: "Will not be fixed"
+  aliases: []
+
+########################################################
+# Special Labels
+########################################################
+- name: "help wanted"
+  color: "#A8E6CF"
+  description: "External help wanted"
+  aliases: []
+
+- name: "needs discussion"
+  color: "#B3C6E7"
+  description: "Requires discussion before implementation"
+  aliases: ["💭 discussion"]
+
+- name: "question"
+  color: "#E7C6FF"
+  description: "Question or uncertainty"
+  aliases: []
+
+- name: "spike"
+  color: "#C9F2FF"
+  description: "A short research activity to help make a decision"
+  aliases: []
+
+- name: "dependencies"
+  color: "#D0E6A5"
+  description: "Dependencies related"
+  aliases: ["📦 dependencies"]
+
+- name: "release"
+  color: "#FFE0B2"
+  description: "Release related"
+  aliases: ["🚀 release"]
+
+- name: "breaking change"
+  color: "#FFB3B3"
+  description: "Introduces breaking changes"
+  aliases: []
+
+- name: "epic"
+  color: "#D1C4E9"
+  description: "Large feature broken into smaller tasks"
+  aliases: []
