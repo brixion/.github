@@ -24,7 +24,7 @@ jobs:
             echo "No custom property 'codebase_type' found. Exiting workflow."
             exit 1
           else
-            echo "Found custom property repo_type: $REPO_TYPE"
+            echo "Found custom property codebase_type: $REPO_TYPE"
           fi
 
           echo "repo_type=$REPO_TYPE" >> $GITHUB_OUTPUT
@@ -57,13 +57,16 @@ jobs:
           echo "Config files to sync:"
           echo "$CONFIG_FILES"
           
-          # Use a delimiter to handle multiline output safely
-          echo "config_files<<EOF" >> $GITHUB_OUTPUT
-          echo "$CONFIG_FILES" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          # Format as multiline string for label-sync action
+          {
+            echo "config_files<<EOF"
+            echo "$CONFIG_FILES"
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
       
       - uses: EndBug/label-sync@v2
         with:
-          config-file: ${{ steps.config.outputs.config_files }}
+          config-file: |
+            ${{ steps.config.outputs.config_files }}
           token: ${{ secrets.GITHUB_TOKEN }}
           delete-other-labels: false
