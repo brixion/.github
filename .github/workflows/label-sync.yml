@@ -1,6 +1,9 @@
 name: Reusable Label Sync
 on:
   workflow_call:
+  pull_request:
+    branches:
+        - main
 
 jobs:
   label-sync:
