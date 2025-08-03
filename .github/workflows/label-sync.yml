@@ -18,15 +18,15 @@ jobs:
             -H "Accept: application/vnd.github+json" \
             -H "X-GitHub-Api-Version: 2022-11-28" \
             "/repos/${{ github.repository }}/properties/values" \
-            --jq '.[] | select(.property_name == "repo_type") | .value' 2>/dev/null || echo "general")
-          
+            --jq '.[] | select(.property_name == "codebase_type") | .value' 2>/dev/null)
+
           if [ -z "$REPO_TYPE" ] || [ "$REPO_TYPE" = "null" ]; then
-            REPO_TYPE="general"
-            echo "No custom property found, using default: $REPO_TYPE"
+            echo "No custom property 'codebase_type' found. Exiting workflow."
+            exit 1
           else
             echo "Found custom property repo_type: $REPO_TYPE"
           fi
-          
+
           echo "repo_type=$REPO_TYPE" >> $GITHUB_OUTPUT
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -48,11 +48,8 @@ jobs:
             "backend")
               CONFIG_FILES="$CONFIG_FILES"$'\n'"$BASE_URL/backend.yml"
               ;;
-            "general")
-              # Only general labels, no additional files
-              ;;
             *)
-              echo "Warning: Unknown repo type '$REPO_TYPE', using only general labels"
+              echo "Unknown repo type '$REPO_TYPE', using only general labels"
               ;;
           esac
           
