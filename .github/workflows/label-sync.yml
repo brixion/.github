@@ -1,0 +1,69 @@
+name: Reusable Label Sync
+on:
+  workflow_call:
+
+jobs:
+  label-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Determine repository type from custom properties
+        id: determine-type
+        run: |
+          # Fetch custom property from GitHub API
+          echo "Fetching repo type from custom properties..."
+          REPO_TYPE=$(gh api \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "/repos/${{ github.repository }}/properties/values" \
+            --jq '.[] | select(.property_name == "repo_type") | .value' 2>/dev/null || echo "general")
+          
+          if [ -z "$REPO_TYPE" ] || [ "$REPO_TYPE" = "null" ]; then
+            REPO_TYPE="general"
+            echo "No custom property found, using default: $REPO_TYPE"
+          else
+            echo "Found custom property repo_type: $REPO_TYPE"
+          fi
+          
+          echo "repo_type=$REPO_TYPE" >> $GITHUB_OUTPUT
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Determine config files
+        id: config
+        run: |
+          BASE_URL="https://raw.githubusercontent.com/brixion/.github/main/labels"
+          REPO_TYPE="${{ steps.determine-type.outputs.repo_type }}"
+          
+          # Always include general labels
+          CONFIG_FILES="$BASE_URL/general.yml"
+          
+          # Add type-specific labels if not general
+          case "$REPO_TYPE" in
+            "frontend")
+              CONFIG_FILES="$CONFIG_FILES"$'\n'"$BASE_URL/frontend.yml"
+              ;;
+            "backend")
+              CONFIG_FILES="$CONFIG_FILES"$'\n'"$BASE_URL/backend.yml"
+              ;;
+            "general")
+              # Only general labels, no additional files
+              ;;
+            *)
+              echo "Warning: Unknown repo type '$REPO_TYPE', using only general labels"
+              ;;
+          esac
+          
+          echo "Repository type: $REPO_TYPE"
+          echo "Config files to sync:"
+          echo "$CONFIG_FILES"
+          
+          # Use a delimiter to handle multiline output safely
+          echo "config_files<<EOF" >> $GITHUB_OUTPUT
+          echo "$CONFIG_FILES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+      
+      - uses: EndBug/label-sync@v2
+        with:
+          config-file: ${{ steps.config.outputs.config_files }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          delete-other-labels: false
