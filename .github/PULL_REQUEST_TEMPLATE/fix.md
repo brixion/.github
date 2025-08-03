@@ -1,10 +1,3 @@
----
-name: Fix
-about: Template voor het oplossen van een probleem
-title: "🩹🐛🚑 [ACTION] [WHAT] in/for [WHERE]"
-labels: 'type: fix'
----
-
 ## 🔍 Samenvatting
 
 <!-- Geef een korte beschrijving van deze wijziging (1-3 zinnen) -->

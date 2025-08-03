@@ -1,10 +1,3 @@
----
-name: Refactor
-about: Template voor refactor wijzigingen
-title: "♻️ [ACTION] [WHAT] in/for [WHERE]"
-labels: 'type: refactor'
----
-
 ## 🔍 Samenvatting
 
 <!-- Geef een korte beschrijving van deze wijziging (1-3 zinnen) -->

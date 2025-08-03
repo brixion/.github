@@ -1,10 +1,3 @@
----
-name: Algemeen (uitgebreid)
-about: Template voor overige Pull Requests
-title: "🎨 [ACTION] [WHAT] in/for [WHERE]"
-labels: 'type: other'
----
-
 ## 🔍 Samenvatting
 
 <!-- Geef een korte beschrijving van deze wijziging (1-3 zinnen) -->
