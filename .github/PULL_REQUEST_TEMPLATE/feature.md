@@ -1,10 +1,3 @@
----
-name: Nieuwe functionaliteit
-about: Template voor het toevoegen van een nieuwe functionaliteit
-title: "✨ [ACTION] [WHAT] in/for [WHERE]"
-labels: 'type: feature'
----
-
 ## 🔍 Samenvatting
 
 <!-- Geef een korte beschrijving van wat je hebt toegevoegd (1-3 zinnen) -->
