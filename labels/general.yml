@@ -54,7 +54,7 @@
 - name: "type: architecture"
   color: "#6A4FB6"
   description: "Application architecture and high-level design"
-  aliases: []
+  aliases: ["🏗️ architecture"]
 
 ########################################################
 # Size/Effort Labels
