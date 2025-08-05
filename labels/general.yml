@@ -9,7 +9,7 @@
 - name: "type: feature"
   color: "#4774c3"
   description: "Request or addition of new functionality"
-  aliases: ["🌟 feature"]
+  aliases: ["🌟 feature", "✨ feature"]
 
 - name: "type: documentation"
   color: "#94bf87"
