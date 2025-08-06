@@ -9,7 +9,7 @@
 - name: "type: feature"
   color: "#4774c3"
   description: "Request or addition of new functionality"
-  aliases: ["🌟 feature"]
+  aliases: ["🌟 feature", "✨ feature"]
 
 - name: "type: documentation"
   color: "#94bf87"
@@ -54,7 +54,7 @@
 - name: "type: architecture"
   color: "#6A4FB6"
   description: "Application architecture and high-level design"
-  aliases: []
+  aliases: ["🏗️ architecture"]
 
 ########################################################
 # Size/Effort Labels
