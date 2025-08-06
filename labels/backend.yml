@@ -10,3 +10,8 @@
   color: "#2E8B57"
   description: "Database schema, queries, or migrations"
   aliases: []
+
+- name: "type: endpoint"
+  color: "#8B572E"
+  description: "Endpoint implementation or changes"
+  aliases: ["🔗 endpoint"]
