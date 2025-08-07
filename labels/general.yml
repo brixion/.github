@@ -1,57 +1,57 @@
 ########################################################
 # Type Labels
 ########################################################
-- name: "type: bug"
+- name: "type: 🐛 bug"
   color: "#b03a4a"
   description: "A problem that needs to be fixed"
   aliases: ["🐛 bug", "🔥 hotfix"]
 
-- name: "type: feature"
+- name: "type: ✨ feature"
   color: "#4774c3"
   description: "Request or addition of new functionality"
   aliases: ["🌟 feature", "✨ feature"]
 
-- name: "type: documentation"
+- name: "type: 📖 documentation"
   color: "#94bf87"
   description: "Improvements or additions to documentation"
   aliases: ["📖 docs"]
 
-- name: "type: refactor"
+- name: "type: ♻️ refactor"
   color: "#5da766"
   description: "Code changes that neither fix a bug nor add a feature"
   aliases: ["♻️ refactor"]
 
-- name: "type: test"
+- name: "type: 🧪 test"
   color: "#ddab97"
   description: "Adding or updating tests"
   aliases: []
 
-- name: "type: maintenance"
+- name: "type: 🔧 maintenance"
   color: "#98b7b8"
   description: "General maintenance and codebase health"
   aliases: ["🔧 config", "🛠️ setup", "🧹 chore"]
 
-- name: "type: security"
+- name: "type: 🔒 security"
   color: "#ca5e69"
   description: "Security vulnerability or improvement"
   aliases: ["🔒 security"]
 
-- name: "type: performance"
+- name: "type: ⚡ performance"
   color: "#afa273"
   description: "Performance improvement"
   aliases: ["⚡ performance"]
 
-- name: "type: infrastructure"
+- name: "type: 🧱 infrastructure"
   color: "#b45a81"
   description: "Infrastructure or deployment changes"
   aliases: ["🧱 infra"]
 
-- name: "type: ci"
+- name: "type: 👷 ci"
   color: "#86b8bb"
   description: "GitHub Actions implementation"
   aliases: ["👷🏼 ci", "👷🏼 ci/cd"]
 
-- name: "type: architecture"
+- name: "type: 🏗️ architecture"
   color: "#6A4FB6"
   description: "Application architecture and high-level design"
   aliases: ["🏗️ architecture"]
