@@ -4,57 +4,57 @@
 - name: "type: 🐛 bug"
   color: "#b03a4a"
   description: "A problem that needs to be fixed"
-  aliases: ["🐛 bug", "🔥 hotfix"]
+  aliases: ["🐛 bug", "🔥 hotfix", "type: bug"]
 
 - name: "type: ✨ feature"
   color: "#4774c3"
   description: "Request or addition of new functionality"
-  aliases: ["🌟 feature", "✨ feature"]
+  aliases: ["🌟 feature", "✨ feature", "type: feature"]
 
 - name: "type: 📖 documentation"
   color: "#94bf87"
   description: "Improvements or additions to documentation"
-  aliases: ["📖 docs"]
+  aliases: ["📖 docs", "type: documentation"]
 
 - name: "type: ♻️ refactor"
   color: "#5da766"
   description: "Code changes that neither fix a bug nor add a feature"
-  aliases: ["♻️ refactor"]
+  aliases: ["♻️ refactor", "type: refactor"]
 
 - name: "type: 🧪 test"
   color: "#ddab97"
   description: "Adding or updating tests"
-  aliases: []
+  aliases: ["type: test"]
 
 - name: "type: 🔧 maintenance"
   color: "#98b7b8"
   description: "General maintenance and codebase health"
-  aliases: ["🔧 config", "🛠️ setup", "🧹 chore"]
+  aliases: ["🔧 config", "🛠️ setup", "🧹 chore", "type: maintenance"]
 
 - name: "type: 🔒 security"
   color: "#ca5e69"
   description: "Security vulnerability or improvement"
-  aliases: ["🔒 security"]
+  aliases: ["🔒 security", "type: security"]
 
 - name: "type: ⚡ performance"
   color: "#afa273"
   description: "Performance improvement"
-  aliases: ["⚡ performance"]
+  aliases: ["⚡ performance", "type: performance"]
 
 - name: "type: 🧱 infrastructure"
   color: "#b45a81"
   description: "Infrastructure or deployment changes"
-  aliases: ["🧱 infra"]
+  aliases: ["🧱 infra", "type: infrastructure"]
 
 - name: "type: 👷 ci"
   color: "#86b8bb"
   description: "GitHub Actions implementation"
-  aliases: ["👷🏼 ci", "👷🏼 ci/cd"]
+  aliases: ["👷🏼 ci", "👷🏼 ci/cd", "type: ci"]
 
 - name: "type: 🏗️ architecture"
   color: "#6A4FB6"
   description: "Application architecture and high-level design"
-  aliases: ["🏗️ architecture"]
+  aliases: ["🏗️ architecture", "type: architecture"]
 
 ########################################################
 # Size/Effort Labels
