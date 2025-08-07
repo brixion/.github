@@ -11,7 +11,7 @@
   description: "Request or addition of new functionality"
   aliases: ["🌟 feature", "✨ feature", "type: feature"]
 
-- name: "type: 📖 documentation"
+- name: "type: 📝 documentation"
   color: "#94bf87"
   description: "Improvements or additions to documentation"
   aliases: ["📖 docs", "type: documentation"]
