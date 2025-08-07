@@ -1,17 +1,18 @@
 ########################################################
 # Backend-specific Type Labels
 ########################################################
-- name: "type: business-logic"
+- name: "type: 👔 business-logic"
   color: "#3585BD"
   description: "Business logic implementation or changes"
-  aliases: []
+  aliases: ["type: business-logic"]
 
-- name: "type: database"
+- name: "type: 🗃️ database"
   color: "#2E8B57"
   description: "Database schema, queries, or migrations"
-  aliases: []
+  aliases: ["type: database"]
 
-- name: "type: endpoint"
+- name: "type: 🔗 endpoint"
   color: "#8B572E"
   description: "Endpoint implementation or changes"
-  aliases: ["🔗 endpoint"]
+  aliases: ["🔗 endpoint", "type: endpoint"]
+  
