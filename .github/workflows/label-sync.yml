@@ -48,6 +48,9 @@ jobs:
             "backend")
               CONFIG_FILES="$CONFIG_FILES"$'\n'"$BASE_URL/backend.yml"
               ;;
+            "monorepo")
+              CONFIG_FILES="$CONFIG_FILES"$'\n'"$BASE_URL/frontend.yml"$'\n'"$BASE_URL/backend.yml"
+              ;;
             *)
               echo "Unknown repo type '$REPO_TYPE', using only general labels"
               ;;
