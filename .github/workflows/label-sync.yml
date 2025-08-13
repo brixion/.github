@@ -7,7 +7,7 @@ on:
 
 jobs:
   label-sync:
-    runs-on: self-hosted
+    runs-on: brixion-runners
     steps:
       - name: Determine repository type from custom properties
         id: determine-type

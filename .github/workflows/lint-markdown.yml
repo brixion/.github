@@ -11,7 +11,7 @@ on: # yamllint disable-line rule:truthy
 jobs:
     lint-markdown:
         name: Lint Markdown
-        runs-on: self-hosted
+        runs-on: brixion-runners
         steps:
             - uses: actions/checkout@v4  # Checkout the calling repo
 
