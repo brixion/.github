@@ -197,3 +197,12 @@
   color: "#D1C4E9"
   description: "Large feature broken into smaller tasks"
   aliases: []
+
+########################################################
+# Other Labels
+########################################################
+
+- name: "deploy preview"
+  color: "#1ABC9C"
+  description: "Deploy a preview of the feature branch "
+  aliases: ["preview", "deploy-preview", "🖥️ preview"]
