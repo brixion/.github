@@ -13,5 +13,5 @@
 
 - name: "deploy preview"
   color: "#1ABC9C"
-  description: "Deploy a preview of the feature branch "
+  description: "Deploy a preview of the feature branch"
   aliases: ["preview", "deploy-preview", "🖥️ preview"]
