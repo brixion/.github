@@ -10,4 +10,8 @@
   color: "#e3b140"
   description: "Fixes for responsive design or layout issues"
   aliases: ["🚸 ux", "type: ux"]
-  
+
+- name: "deploy preview"
+  color: "#1ABC9C"
+  description: "Deploy a preview of the feature branch"
+  aliases: ["preview", "deploy-preview", "🖥️ preview"]
