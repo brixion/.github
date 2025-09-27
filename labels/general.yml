@@ -60,28 +60,28 @@
 # Size/Effort Labels
 ########################################################
 - name: "size: XS"
-  color: "#0052AA"
-  description: "Very small task (< 1 hour)"
+  color: "#00345E"
+  description: "Very small task (< 15 minutes)"
   aliases: ["XS"]
 
 - name: "size: S"
-  color: "#0052BB"
-  description: "Small task (1-4 hours)"
+  color: "#004277"
+  description: "Small task (< 1 hour)"
   aliases: ["S"]
 
 - name: "size: M"
-  color: "#0052CC"
-  description: "Medium task (1-2 days)"
+  color: "#005091"
+  description: "Medium task (1-4 hours)"
   aliases: ["M"]
 
 - name: "size: L"
-  color: "#0052DD"
-  description: "Large task (3-5 days)"
+  color: "#005EAA"
+  description: "Large task (1-8 hours)"
   aliases: ["L"]
 
 - name: "size: XL"
-  color: "#0052EE"
-  description: "Very large task (> 1 week)"
+  color: "#006CC4"
+  description: "Very large task (> 1 day)"
   aliases: ["XL"]
 
 ########################################################
