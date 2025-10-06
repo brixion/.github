@@ -1,18 +1,19 @@
-# Choose a Pull Request template
+## 🔍 Samenvatting
 
-1. Click the `Preview` tab above.
-2. Select the most appropriate template for your PR from the list below:
+<!-- Geef een korte beschrijving van deze wijziging (1-3 zinnen) -->
 
----
+Deze PR ...
 
-## **General Templates
+## 📝 Beschrijving
 
-- [📑 General PR (Short)](?expand=1&template=general-small.md)
-- [📑 General PR (Extended)](?expand=1&template=general-extended.md)
+<!-- Beschrijf in detail en puntsgewijs wat je aangepast hebt. -->
 
-## Specific templates
+-
+-
+-
 
-- [📝 Documentation](?expand=1&template=documentation.md)
-- [✨ Feature](?expand=1&template=feature.md)
-- [🐛 Fix](?expand=1&template=fix.md)
-- [♻️ Refactor](?expand=1&template=refactor.md)
+## ✅ Checklist
+
+- [ ] Code is lokaal getest
+- [ ] Tests zijn toegevoegd/aangepast
+- [ ] Documentatie bijgewerkt (indien nodig)
