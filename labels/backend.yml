@@ -3,16 +3,15 @@
 ########################################################
 - name: "type: 👔 business-logic"
   color: "#3585BD"
-  description: "Business logic implementation or changes"
+  description: "Change to business logic implementation"
   aliases: ["type: business-logic"]
 
 - name: "type: 🗃️ database"
   color: "#2E8B57"
-  description: "Database schema, queries, or migrations"
+  description: "Change to database schema, SQL queries, or migrations"
   aliases: ["type: database"]
 
 - name: "type: 🔗 endpoint"
   color: "#8B572E"
-  description: "Endpoint implementation or changes"
+  description: "Change to a new or existing API endpoint"
   aliases: ["🔗 endpoint", "type: endpoint"]
-  
