@@ -1,3 +1,5 @@
+## 🔍 Samenvatting
+
 <!-- Geef een korte beschrijving van deze wijziging (1-3 zinnen) -->
 
 Deze PR ...
