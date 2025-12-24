@@ -61,27 +61,27 @@
 ########################################################
 - name: "size: XS"
   color: "#00345E"
-  description: "Very small task (< 15 minutes)"
+  description: "Trivial work. Clear, low risk, no coordination needed."
   aliases: ["XS"]
 
 - name: "size: S"
   color: "#004277"
-  description: "Small task (< 1 hour)"
+  description: "Simple work. Known pattern, low uncertainty."
   aliases: ["S"]
 
 - name: "size: M"
   color: "#005091"
-  description: "Medium task (1-4 hours)"
+  description: "Moderate complexity. Multiple steps or small decisions."
   aliases: ["M"]
 
 - name: "size: L"
   color: "#005EAA"
-  description: "Large task (1-8 hours)"
+  description: "High complexity. Multiple parts, risks or dependencies."
   aliases: ["L"]
 
 - name: "size: XL"
   color: "#006CC4"
-  description: "Very large task (> 1 day)"
+  description: "Too complex or unclear. Split or run a spike first."
   aliases: ["XL"]
 
 ########################################################
