@@ -1,0 +1,7 @@
+# GitHub templates start with ## rather than a document-level #
+extends: workflows/configs/.markdownlint.yaml
+
+MD041:
+  allow_preamble: false
+  front_matter_title: "^\\s*title\\s*[:=]"
+  level: 2
