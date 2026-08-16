@@ -26,10 +26,10 @@
   description: "Adding or updating tests"
   aliases: ["type: test"]
 
-- name: "type: 🔧 maintenance"
+- name: "type: 🔧 configuration"
   color: "#98b7b8"
-  description: "General maintenance and codebase health"
-  aliases: ["🔧 config", "🛠️ setup", "🧹 chore", "type: maintenance"]
+  description: "General configuration and codebase health"
+  aliases: ["🔧 maintenance", "🔧 config", "🛠️ setup", "🧹 chore", "type: configuration"]
 
 - name: "type: 🔒 security"
   color: "#ca5e69"
