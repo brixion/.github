@@ -22,12 +22,19 @@ jobs:
                 path: shared
                 sparse-checkout: |
                   .github/workflows/configs/.markdownlint.yaml
+                sparse-checkout-cone-mode: false
 
             - name: Copy markdownlint config
-              run: curl -o .markdownlint.yaml https://raw.githubusercontent.com/brixion/.github/main/.github/workflows/configs/.markdownlint.yaml
+              run: |
+                if [ -f .github/workflows/configs/.markdownlint.yaml ]; then
+                  cp .github/workflows/configs/.markdownlint.yaml .markdownlint.yaml
+                else
+                  cp shared/.github/workflows/configs/.markdownlint.yaml .markdownlint.yaml
+                fi
 
             - name: Lint Markdown
               uses: DavidAnson/markdownlint-cli2-action@v19
               with:
-                config: .markdownlint.yaml
-                globs: "**/*.md"
+                globs: |
+                  **/*.md
+                  !shared/**
