@@ -29,7 +29,14 @@
 - name: "type: 🔧 configuration"
   color: "#98b7b8"
   description: "General configuration and codebase health"
-  aliases: ["🔧 maintenance", "🔧 config", "🛠️ setup", "🧹 chore", "type: configuration"]
+  aliases:
+    [
+      "🔧 maintenance",
+      "🔧 config",
+      "🛠️ setup",
+      "🧹 chore",
+      "type: configuration",
+    ]
 
 - name: "type: 🔒 security"
   color: "#ca5e69"
@@ -55,6 +62,11 @@
   color: "#6A4FB6"
   description: "Application architecture and high-level design"
   aliases: ["🏗️ architecture", "type: architecture"]
+
+- name: "type: 📦 dependencies"
+  color: "#D0E6A5"
+  description: "Dependencies related"
+  aliases: ["📦 dependencies", "type: dependencies"]
 
 ########################################################
 # Size/Effort Labels
@@ -177,11 +189,6 @@
   color: "#C9F2FF"
   description: "A short research activity to help make a decision"
   aliases: []
-
-- name: "dependencies"
-  color: "#D0E6A5"
-  description: "Dependencies related"
-  aliases: ["📦 dependencies"]
 
 - name: "release"
   color: "#FFE0B2"
