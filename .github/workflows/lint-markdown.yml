@@ -13,10 +13,10 @@ jobs:
         name: Lint Markdown
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4  # Checkout the calling repo
+            - uses: actions/checkout@v7  # Checkout the calling repo
 
             - name: Checkout shared config
-              uses: actions/checkout@v4
+              uses: actions/checkout@v7
               with:
                 repository: brixion/.github
                 path: shared
